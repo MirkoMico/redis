@@ -1,0 +1,18 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:redisdb
+    username: root
+    password: Crediti20$
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+  h2:
+    console:
+      enabled: true
+
+redis:
+  database: Mirko-free-db
+  password: UIZd2uXKmQMyLb8rpY1mZ1Bb1BNeYgtS
+  host: redis-15417.c253.us-central1-1.gce.cloud.redislabs.com
+  port: 15417
+
